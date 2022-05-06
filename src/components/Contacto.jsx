@@ -12,7 +12,7 @@ const Contacto = () => {
                 <h1 className='contactheader'>Contacto</h1>
                 <div className='contactbody'>
                     <div className='contactclick'>
-                        <div >
+                        <div>
                             <div className='contactext'>En Instalaciones Eléctricas Correa trabajamos para brindarte el mejor servicio.<br/> Tu consulta no molesta, podes hacerlo por nuestros diferentes medios:</div>
                         </div>
                         <div className='linkwrap'>
