@@ -4,6 +4,7 @@ import ValoresContenedor from '../components/ValoresContenedor';
 import Nosotros from '../components/Nosotros';
 import ServiciosContenedor from '../components/ServiciosContenedor';
 import ProyectosContenedor from '../components/ProyectosContenedor';
+import Contacto from '../components/Contacto';
 
 
 function home() {
@@ -14,6 +15,7 @@ function home() {
       <Nosotros />
       <ServiciosContenedor />
       <ProyectosContenedor />
+      <Contacto/>
     </div>
   )
 }

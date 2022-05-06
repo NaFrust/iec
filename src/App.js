@@ -12,6 +12,7 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import particlesOptions from "./assets/particles.json";
 import AOS from 'aos';
+import Contacto from './components/Contacto';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Route path='/' exact element={<Home/>} />
           <Route path='/nosotros' exact element={<NosotrosPage/>} />
           <Route path='/servicios' exact element={<ServiciosPages/>} />
+          <Route path='/contacto' exact element={<ServiciosPages/>} />
         </Routes>
         <Footer />
       </BrowserRouter>
