@@ -7,12 +7,12 @@ import Footer from './components/Footer';
 import Home from './pages/Home.jsx';
 import NosotrosPage from './pages/NosotrosPage';
 import ServiciosPages from './pages/ServiciosPages';
+import ContactoPage from './pages/ContactoPage';
 // fondo
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import particlesOptions from "./assets/particles.json";
 import AOS from 'aos';
-import Contacto from './components/Contacto';
 
 
 function App() {
@@ -29,7 +29,7 @@ function App() {
           <Route path='/' exact element={<Home/>} />
           <Route path='/nosotros' exact element={<NosotrosPage/>} />
           <Route path='/servicios' exact element={<ServiciosPages/>} />
-          <Route path='/contacto' exact element={<ServiciosPages/>} />
+          <Route path='/contacto' exact element={<ContactoPage/>} />
         </Routes>
         <Footer />
       </BrowserRouter>

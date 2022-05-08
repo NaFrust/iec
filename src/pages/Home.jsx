@@ -15,7 +15,6 @@ function home() {
       <Nosotros />
       <ServiciosContenedor />
       <ProyectosContenedor />
-      <Contacto/>
     </div>
   )
 }
